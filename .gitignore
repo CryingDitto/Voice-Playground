@@ -218,3 +218,35 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Additional Python environments, local settings, and credentials
+.env.*
+!.env.example
+!.env.sample
+*.local.json
+.ipynb_checkpoints/
+
+# Voice conversion models and generated results
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
+/PythonServer/results/*
+/ConvertToWav/output/
+
+# Local and third-party sample media pending redistribution review
+/seed-vc-realtime/examples/**/*.wav
+/seed-vc-realtime/assets/*.webm
+
+# Editor and OS files
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
