@@ -1,0 +1,10 @@
+{
+  "block_time": 0.26,
+  "crossfade_time": 0.04,
+  "extra_time_ce": 2.5,
+  "extra_time": 0.5,
+  "extra_time_right": 0.02,
+  "diffusion_steps": 10,
+  "inference_cfg_rate": 0.0,
+  "max_prompt_length": 3.0
+}
